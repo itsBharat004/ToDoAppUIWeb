@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  p,h1,h2,h3{
+    cursor: pointer;
+  }
+  /* 
+  .material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 'red',
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  } */
+  
+  .header {
+    height: 94px;
+  }
+  .header h1 {
+    color: #424242;
+    width: 200px;
+    height: 49px;
+    font-size: 40px;
+    position: relative;
+    left: 207px;
+    top: 23px;
+  }
+  .header-span {
+    color: #00a5ec;
+  }
+  /* ------------section----------- */
+  .container {
+      height: 1274px;
+    background-color: #7b7b7b29;
+    width: 100vw;
+  }
+  .add{
+      width: 215px;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      left:1075px ;
+      top:36px;
+  }
+  
+  .add-sign {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #00a5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .add-sign p{
+      font-size: 35px;
+      font-weight: bold;
+    color: #F7F7F7;
+  }
+  
+  .add-text {
+    font-size: 22px;
+    color: #424242;
+  } 
+  
+  
+  
+  
+  
+  
+  /* -----------cards------------ */
+  .task-container{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      position: relative;
+      left: 200px;
+      top: 77px;
+  }
+  .container-first-row{
+    width: 100vw;
+  display: flex;
+  gap: 15px;
+  
+  }
+  .container-second-row{
+    width: 100vw; 
+      display: flex;
+      gap: 15px;
+  
+  }
+  .task-card{
+      background: #FFFFFF;
+      border-radius: 10px;
+      width: 352px;
+      height: 360px;
+      display: flex;
+      flex-direction: column;
+    border:1px solid#EDEDED;
+  }
+  .task-card:hover{
+    box-shadow: 0px 0px 20px #67676729;
+  transition-delay: 0.3s;
+  }
+  .task-card p{
+  font-size: 20px;
+  font-weight: bold;
+  /* width: 265px; */
+      color: #00A5EC;
+  margin: 30px 56px 30px 30px;
+  }
+  .task-card hr{
+      height: 1px;
+  background-color: #EDEDED;
+  border: none;
+  }
+  .task-card form{
+      display: flex;
+      flex-direction: column;
+      margin: 30px ;
+  
+  }
+  .first-task , .second-task{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .first-task label{
+  text-decoration: line-through;
+  color: #C2C2C2;
+  }
+  input[type=checkbox]{
+      height: 30px;
+      width: 30px;
+  }
+  .task-card form label{
+  font-size: 18px;
+  }
+  .task-card4 p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap ;
+  }
+  /* --------------index 2----------------- */
+  #indexTwoBox{
+    position: absolute;
+    top:125px;
+  margin-top: 184px;
+  }
+  /* ---------------index 3----------- */
+  .container-index3{
+    background: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 800px;
+  }
+  .upper-container{
+    width: 500px;
+    height: 137px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+  .indexThree-back{
+    display: flex;
+    align-items: center;
+  
+  } 
+  
+  .indexThree-add-sign1{
+  display: flex;
+  background: #424242 ;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  }
+  .indexThree-add-text1{
+  margin-left: 10px;
+  }
+  .indexThree-add-text2{
+    text-decoration: none;
+  
+  }
+  .indexThree-add{
+  position: relative;
+  left: 0px;
+  top: 0;
+  display: flex;
+  }
+  
+  .indexThree-main{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px #67676729 ;
+  }
+  .indexThree-task-card1{
+    width: 500px;
+    height: 338px;
+  }
+  /* ---------------------index 4--------------------- */
+  .blur{
+  opacity: 0.6;
+  z-index: -1;
+  }
+  .indexTwoFourBox{
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #67676729;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    z-index: 999;
+  
+  }
+  .upperIndexTwoFourBox{
+    display: flex;
+    flex-wrap: wrap;
+    height: 66px;
+    justify-content: space-between;
+    align-content: center;
+    
+  }
+  .addNewItem{
+  font-size: 22px;
+  color: #404040;
+  margin-left: 20px;
+  }
+  .cross{
+    color: #858585;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  .indexTwoFourBox hr{
+    height: 1px;
+  background-color: #EDEDED;
+  border: 1px #EDEDED;
+  }
+  .lowerIndexTwoFourBox{
+    height: 173px;
+    width: 460px;
+  
+  }
+  .addNewItemInput{
+    width: 460px;
+  height: 40px;
+  background-color: #F7F7F7;
+  border-radius: 4px;
+  border: 1px solid #EDEDED;
+  }
+  .lowerIndexTwoFourBox{
+    height: 173px;
+    width: 460px;
+    margin: 30px 10px 30px 10px;
+  }
+  .addNewItemInput input[type=text]{
+    color: #858585;
+  }
+  .lowerIndexTwoFourBox label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 48px;
+    background-color: #00A5EC;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 280px;
+  }
+  .plus{
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+  }
+  .addItem{
+    color: white;
+    font-size: 18px;
+    margin-left:10.33px ;
+  }
+  
